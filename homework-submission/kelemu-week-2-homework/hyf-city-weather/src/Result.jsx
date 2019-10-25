@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-//import Search from './Search';
+import Search from './Search';
 
 const Result = ({ search }) => {
   const [
@@ -36,10 +36,6 @@ const Result = ({ search }) => {
         .catch(function() {});
     }
   }, [search]);
-
-  //console.log(fetchResult);
-
-  console.log(fetchResult);
 
   return (
     <ul>
