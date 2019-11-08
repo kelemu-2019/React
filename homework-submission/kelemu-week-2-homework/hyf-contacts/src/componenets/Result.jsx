@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import List from './List';
+import List from './FetchList';
 //const [counter, setCounter] = useState(0);
 const Result = () => {
   useEffect(() => {
@@ -11,9 +11,7 @@ const Result = () => {
         <input className="search-bar" type="search" />
         <button className="search-button" type="submit"></button>
       </form>
-      <div className="constant_list">
-        <List />
-      </div>
+      <div className="constant_list"></div>
     </div>
   );
 };
